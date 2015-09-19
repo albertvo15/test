@@ -12,6 +12,6 @@ For that, if you just create a file named .env in the directory and set the valu
 AUTH0_CLIENT_SECRET=myCoolSecret
 AUTH0_CLIENT_ID=myCoolClientId
 AUTH0_DOMAIN=samples.auth0.com
-AUTH0_CALLBACK_URL=http://localhost:3000/auth/auth0/callback
+AUTH0_CALLBACK_URL=http://localhost:3000//callback
 ````
 Once you've set those 4 enviroment variables, just run `python server.py` and try calling [http://localhost:3000/](http://localhost:3000/)
